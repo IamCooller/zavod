@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<link media="all" rel="stylesheet" href="style.css" />
+	<link media="all" rel="stylesheet" href="css/adaptive.css" />
+	<link rel="stylesheet" href="css/slick.css">
+	<script src="js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+	<div class="block header">
+		<div class="center">
+			<div class="flex">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.svg"></a>
+				</div>
+				<div class="header-center">
+					<div class="header-center-one">
+						<div class="search">
+							<form method="" action="">
+								<input type="text" value="" name="s">
+								<input type="submit" value="" />
+							</form>
+						</div>
+						<div class="header-center-one-addintional">
+							<div class="address">
+								
+								<img src="images/местоположения.svg">
+								<a href="#">
+								<span>Адрес</span>
+							</a>
+							</div>
+							<div class="mail">
+								
+								<img src="images/mail.svg">
+								<a href="mailto:mail@mail.ru">
+								<span>mail@mail.ru</span>
+							</a>
+							</div>
+						</div>
+					</div>
+					<div class="header-center-two">
+						<nav>
+							<ul>
+								<li><a href="./about.html">О компании</a></li>
+								<li><a href="./catalog.html">продукция</a></li>
+								<li><a href="./services.html">услуги</a></li>
+								<li><a href="./contacts.html">контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header-right">
+					<a href="tel:8 800 000 00 00">8 800 000 00 00</a>
+					<button data-touch="false" data-src="#modal-form-call" href="javascript:;" data-fancybox>Заказать обратный звонок</button>
+
+					<div  class="form" id="modal-form-call" style="display:none;">
+						<h3>Заказать обратный звонок</h3>
+						<p>
+							<span class="your-name">
+								<input type="text" name="your-name" value="" size="40" placeholder="Ваше имя"></span>
+								<span class="your-tel">
+									<input type="tel" name="your-tel" value="" size="40" placeholder="Ваш телефон"></span>
+									<span class="your-mail">
+
+						</p>
+						<small>Нажимая кнопку "Отправить" даю согласие на обработку <a href="">персональных данных</a></small>
+						<button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small" title="Close"><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></button>
+						<button type="submit"  class="form__submit" >Отправить</button>
+					  </div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="block mobile">
+		<div class="flex">
+			<div class="logo">
+				<a href=""><img src="images/logo.svg"></a>
+			</div>
+			<nav role="navigation">
+				<div id="menuToggle">
+				 
+				  <input type="checkbox" />
+				  
+				
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				  
+				
+				  <ul id="menu">
+					<div class="logo">
+					<a href=""><img src="images/logo.svg"></a>
+				</div>
+				<div class="header-center">
+					<div class="header-center-two">
+						<nav>
+							<ul>
+								<li><a href="./about.html">О компании</a></li>
+								<li><a href="./catalog.html">продукция</a></li>
+								<li><a href="./services.html">услуги</a></li>
+								<li><a href="./contacts.html">контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header-center-one">
+						<div class="search">
+							<form method="" action="">
+								<input class="mobile-search" type="text" value="" name="s">
+								<input class="mobile-search-icon" type="submit" value="" />
+							</form>
+						</div>
+						<div class="header-center-one-addintional">
+							<div class="address">
+								
+								<img src="images/местоположения.svg">
+								<a href="#"></a>
+								<span>Адрес</span>
+							</a>
+								 
+							</div>
+							<div class="mail">
+								
+								<img src="images/mail.svg">
+								<a href="mailto:mail@mail.ru"></a>
+								<span>mail@mail.ru</span>
+								</a>
+							
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				<div class="header-right">
+					<a href="tel:8 800 000 00 00">8 800 000 00 00</a>
+					<button data-touch="false" data-src="#modal-form-call" href="javascript:;" data-fancybox>Заказать обратный звонок</button>
+
+					<div  class="form" id="modal-form-call" style="display:none;">
+						<h3>Заказать обратный звонок</h3>
+						<p>
+							<span class="your-name">
+								<input type="text" name="your-name" value="" size="40" placeholder="Ваше имя"></span>
+								<span class="your-tel">
+									<input type="tel" name="your-tel" value="" size="40" placeholder="Ваш телефон"></span>
+									<span class="your-mail">
+
+						</p>
+						<small>Нажимая кнопку "Отправить" даю согласие на обработку <a href="">персональных данных</a></small>
+						<button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small" title="Close"><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path></svg></button>
+						<button type="submit"  class="form__submit" >Отправить</button>
+					  </div>
+				</div>
+				  </ul>
+				</div>
+			  </nav>
+		</div>
+		
+		
+	</div>
+		
+		
+	</div>
+
+
+
+	<div class="block our-services">
+		<div class="center">
+            <div class="our-services-block">
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Произведём автомобильные щупы
+						по вашим чертежам</p>
+						<a href="./services.html">подробнее</a>
+				</div>
+
+				<div class="our-services-block-img">
+					<img src="./images/our-services1.png">
+				</div>
+			</div>
+
+			<div class="our-services-block">
+				<div class="our-services-block-img">
+					<img src="./images/our-services2.png">
+				</div>
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Металообработка</p>
+					<a href="./services.html">подробнее</a>
+				</div>
+
+				
+            </div>
+            <div class="our-services-block">
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Произведём автомобильные щупы
+						по вашим чертежам</p>
+						<a href="./services.html">подробнее</a>
+				</div>
+
+				<div class="our-services-block-img">
+					<img src="./images/our-services1.png">
+				</div>
+			</div>
+
+			<div class="our-services-block">
+				<div class="our-services-block-img">
+					<img src="./images/our-services2.png">
+				</div>
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Металообработка</p>
+					<a href="./services.html">подробнее</a>
+				</div>
+
+				
+            </div>
+            <div class="our-services-block">
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Произведём автомобильные щупы
+						по вашим чертежам</p>
+						<a href="./services.html">подробнее</a>
+				</div>
+
+				<div class="our-services-block-img">
+					<img src="./images/our-services1.png">
+				</div>
+			</div>
+
+			<div class="our-services-block">
+				<div class="our-services-block-img">
+					<img src="./images/our-services2.png">
+				</div>
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Металообработка</p>
+					<a href="./services.html">подробнее</a>
+				</div>
+
+				
+            </div>
+            <div class="our-services-block">
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Произведём автомобильные щупы
+						по вашим чертежам</p>
+						<a href="./services.html">подробнее</a>
+				</div>
+
+				<div class="our-services-block-img">
+					<img src="./images/our-services1.png">
+				</div>
+			</div>
+
+			<div class="our-services-block">
+				<div class="our-services-block-img">
+					<img src="./images/our-services2.png">
+				</div>
+				<div class="our-services-block-title">
+					<h3>Наши услуги</h3>
+					<p>Металообработка</p>
+					<a href="./services.html">подробнее</a>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+
+    <div class="footer">
+		<div class="center">
+			<div class="footer-blocks">
+				<div class="footer-block">
+					<img src="./images/logo.svg">
+				</div>
+				<div class="footer-block">
+					<span>информация</span>
+				<ul>
+					<li><a href="./about.html">О нас</a></li>
+					<li><a href="./about.html">Договор аферта</a></li>
+					<li><a href="./about.html">Доставка и оплата</a></li>
+				</ul>
+				</div>
+
+				<div class="footer-block">
+				<ul>
+					<li><a href="./about.html">Конфиденциальность</a></li>
+					<li><a href="./about.html">Сертификаты</a></li>
+				</ul>
+				</div>
+				<div class="footer-block">
+					<span>блок услуг</span>
+				<ul>
+					<li><a href="./about.html">Магазин автозапчастей</a></li>
+					<li><a href="./stock.html">Акции и Скидки</a></li>
+					<li><a href="./about.html">Новинки</a></li>
+				</ul>
+				</div>
+
+				<div class="footer-block">
+					<ul>
+						<li><a href="./about.html">Оптовый прайс-лист</a></li>
+						<li><a href="./about.html">Оптовикам</a></li>
+						<li><a href="./about.html">Лидеры продаж</a></li>
+					</ul>
+					</div>
+			</div>
+			<div class="footer-after">
+				<div class="footer-after-block">
+					г. Москва, ул. Ленина, дом 20, стр 21
+				</div>
+				<div class="footer-after-block">
+					Режим работы:  Пн - Пт с 07:00 до 20:00 
+				</div>
+				<div class="footer-after-block">
+					<a href="tel:8 800 000 00 00">8 800 000 00 00</a>
+				</div>
+				<div class="footer-after-block">
+					<a href="mail:mail@mail.ru">mail@mail.ru</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<link media="all" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
+	<link media="all" rel="stylesheet" href="css/jquery.fancybox.min.css" />
+	<link media="all" rel="stylesheet" href="css/jquery.formstyler.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/jquery.formstyler.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/all.js"></script>
+</body>
+</html>

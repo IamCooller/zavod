@@ -1,0 +1,333 @@
+@media (max-width:1190px) {
+	.our-products-block {
+		flex: 31%;
+		margin: 10px;
+		max-width: 295px;
+	}
+
+	.our-products-all {
+		justify-content: center;
+	}
+
+	.products-description {
+		left: 40%;
+	}
+
+	.center {
+		padding: 0 5%;
+	}
+
+	.main-directions-catalog-block {
+		width: 40%;
+	}
+
+	.our-services-block-img img {
+		max-width: 430px;
+		width: 100%;
+	}
+
+	.products-hover {
+		right: -3px;
+	}
+}
+
+@media (max-width:1130px) {
+
+	.logo img {
+		max-width: 150px;
+		width: 100%;
+	}
+
+	.header-right a {
+		font-size: 1rem;
+	}
+
+	.header-right button {
+		font-size: .7rem;
+		padding: 8px 10px;
+	}
+}
+
+@media (max-width:996px) {
+	.our-services-block {
+		padding-right: 0;
+	}
+
+	.catalog-main-parts-all-block {
+		width: 161px;
+	}
+
+	.catalog-main-parts-title {
+		text-align: center;
+		line-height: 30px;
+	}
+
+	.products-hover {
+		right: 0px;
+	}
+
+	.footer-after-block {
+		border: none;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.mobile .logo {
+		margin-right: auto;
+		padding-left: 10px;
+	}
+
+	.mobile .header-center-two ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mobile .header-center {
+		margin: 0 auto;
+	}
+
+	.slick-center img {
+		max-width: 100%
+	}
+
+
+	.our-services-block-title {
+		width: 100%;
+	}
+
+	.our-services-block-img {
+		width: 100%;
+		order: -1;
+		margin-bottom: 3rem;
+	}
+
+	.our-services-block-img img {
+		max-width: 100%;
+	}
+
+	.our-services-block:first-child,
+	.our-services-block:last-child {
+		padding: 0;
+	}
+
+	.footer-blocks {
+		flex-wrap: wrap;
+	}
+
+	.footer-block {
+		flex: 30%;
+	}
+
+	.footer-after {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.footer-after-block {
+		flex: 100%;
+		padding: 0;
+	}
+
+	.about-company {
+		height: 100%;
+	}
+
+	.mobile .mail::before {
+		left: -161px;
+	}
+
+	.slick-slide img {
+		max-width: 300px;
+		width: 100%;
+	}
+
+	.our-products-all {
+		justify-content: center;
+	}
+
+	.our-products-block {
+		flex: 31%;
+		margin: 10px;
+		max-width: 295px;
+	}
+
+	.products-description {
+		left: 80px;
+	}
+
+	.our-products-block img {
+		width: 100%;
+	}
+
+	.products-hover {
+		left: 0px;
+	}
+
+	.companys-news-slide img {
+		max-width: 100%;
+	}
+
+	.companys-news-slide-title {
+		bottom: 14%;
+	}
+
+
+	.slick-arrow {
+		right: -2vw;
+	}
+
+	.prev {
+		left: -2vw;
+	}
+
+	.news-block {
+		width: 294px;
+	}
+
+}
+
+@media(max-width:770px) {
+
+	#open-catalog {
+		display: block;
+		background: none;
+		color: #fff;
+		width: fit-content;
+		margin: 0 auto;
+		border: 1px solid;
+		padding: 5px 10px;
+	}
+
+	.catalog-main-sidebar {
+		display: none;
+	}
+
+	.news-block {
+		width: 100%;
+	}
+
+	.subscribe form {
+		width: 100%;
+	}
+
+	.block.catalog-main .flex {
+		flex-direction: column;
+	}
+
+	.catalog-main-sidebar {
+		max-width: 100%;
+	}
+
+	.catalog-main-parts {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.catalog-main-parts-all-block {
+		width: 180px;
+	}
+
+	.footer-block {
+		flex: 60%;
+		margin: 1rem 0;
+	}
+
+	.footer-block img {
+		margin: 0 auto;
+	}
+
+	.footer .center {
+		text-align: center;
+	}
+
+	.header-center-one-addintional {
+		justify-content: center;
+	}
+
+	.mobile .mail::before {
+		left: -18px;
+	}
+
+	.main-directions-catalog-block h3 {
+		font-size: 2rem;
+	}
+
+	.main-directions-catalog-block {
+		width: 100%;
+	}
+
+	.records-velue {
+		flex-wrap: wrap;
+	}
+
+	.records-block {
+		flex: 35%;
+	}
+
+	.main-title h1 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	.main-title p {
+		font-size: 1rem;
+	}
+
+
+	.our-products-block {
+		flex: 100%;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.products-description {
+		left: 40%;
+	}
+
+	.stock-block {
+		flex-direction: column;
+	}
+
+	.stock-block .stock-block-info {
+		margin-top: 3rem;
+	}
+	
+	.catalog-main-sidebar {
+		padding: 20px 0;
+	}
+}
+
+@media (max-width:400px) {
+	.subscribe form input[type="text"] {
+		position: relative;
+		width: 80%;
+	}
+
+	.companys-news-slide-description a {
+		font-size: 1rem;
+	}
+
+	.main-title h1 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	.title h2 {
+		font-size: 2rem;
+	}
+
+
+
+	.catalog-main-parts-all-block {
+		width: 100%;
+	}
+
+
+
+}
